@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Responsiv Portfolio",
   "main": "index.js",
+  "homepage": "https://asiat83.github.io/009Port",
   "scripts": {
-    "sass": "echo \"Hello from\""
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Sergey Terijoki",
   "license": "ISC",

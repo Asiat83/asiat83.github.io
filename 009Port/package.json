@@ -1,0 +1,14 @@
+{
+  "name": "responsive-portfolio",
+  "version": "1.0.0",
+  "description": "Responsiv Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "echo \"Hello from\""
+  },
+  "author": "Sergey Terijoki",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
